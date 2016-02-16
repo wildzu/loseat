@@ -1,0 +1,9 @@
+{
+  "name": "sensor-server-mock",
+  "description": "A sensor server mock implementation",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+  }
+}
