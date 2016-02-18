@@ -1,0 +1,40 @@
+{
+    "sensors": [
+        {
+            "id": "1",
+            "name": "sensor1",
+            "type": "temperature",
+            "location": "olohuone",
+            "ip": "http://127.0.0.1:3000"
+    }, {
+            "id": "2",
+            "name": "sensor2",
+            "type": "temperature",
+            "location": "ala-aula",
+            "ip": "http://127.0.0.1:3000"
+    }, {
+            "id": "3",
+            "name": "sensor3",
+            "type": "temperature",
+            "location": "tyttöjen huone",
+            "ip": "http://127.0.0.1:3000"
+    }, {
+            "id": "4",
+            "name": "sensor3",
+            "type": "temperature",
+            "location": "laurin huone",
+            "ip": "http://127.0.0.1:3003"
+    }, {
+            "id": "5",
+            "name": "sensor2",
+            "type": "temperature",
+            "location": "keittiö",
+            "ip": "http://127.0.0.1:3001"
+    }, {
+            "id": "6",
+            "name": "sensor2",
+            "type": "temperature",
+            "location": "kylppäri",
+            "ip": "http://127.0.0.1:3002"
+    }]
+}

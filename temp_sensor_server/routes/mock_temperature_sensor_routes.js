@@ -1,23 +1,23 @@
 exports.findAll = function (req, res) {
+
+    var temperature = Math.floor(-40 + (Math.random() * 80) + 1);
+
     console.log("Sending a sensor response via findAll");
+
     res.send([{
-        name: 'sensor1'
-    }, {
-        name: 'sensor2'
-    }, {
-        name: 'sensor3'
+        name: 'sensorA',
+        type: 'temperature',
+        value: temperature
     }]);
 };
 
 exports.findById = function (req, res) {
     var temperature = Math.floor(-40 + (Math.random() * 80) + 1);
 
-    console.log("Sending a sensor response via findByID");
+    console.log("Sending a sensor response via findByID " + req.params.id);
     res.send({
         id: req.params.id,
-        name: "The Sensor",
-        location: "description",
+        type: "temperature",
         value: temperature
     });
 };
-
